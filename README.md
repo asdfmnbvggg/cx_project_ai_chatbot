@@ -189,3 +189,111 @@ cx_project_ai_chatbot-main/
     ├── 빅카인즈_크롤링.ipynb
     ├── 유튜브 링크 수집 코드.ipynb
     └── 유튜브댓글크롤링.ipynb
+
+---
+
+````md
+## 실행 방법
+
+본 프로젝트의 프론트엔드 코드는 `ai_chatbot_ui_ux` 폴더 안에 있습니다.
+
+### 1. 저장소 클론
+
+```bash
+git clone https://github.com/사용자명/저장소명.git
+````
+
+```bash
+cd 저장소명
+```
+
+### 2. 프론트엔드 폴더로 이동
+
+```bash
+cd ai_chatbot_ui_ux
+```
+
+### 3. 패키지 설치
+
+```bash
+npm install
+```
+
+### 4. 개발 서버 실행
+
+```bash
+npm run dev
+```
+
+실행 후 브라우저에서 아래 주소로 접속합니다.
+
+```bash
+http://localhost:5173
+```
+
+### 5. 배포용 빌드
+
+```bash
+npm run build
+```
+
+빌드가 완료되면 `dist` 폴더가 생성됩니다.
+
+### 6. 빌드 결과 미리보기
+
+```bash
+npm run preview
+```
+
+---
+
+## 배포 설정
+
+본 프로젝트는 Vercel을 통해 배포할 수 있습니다.
+
+Vercel 배포 시 설정값은 다음과 같습니다.
+
+```bash
+Root Directory: ai_chatbot_ui_ux
+Framework Preset: Vite
+Build Command: npm run build
+Output Directory: dist
+```
+
+프론트엔드 코드가 `ai_chatbot_ui_ux` 폴더 안에 있으므로, Vercel에서 **Root Directory를 `ai_chatbot_ui_ux`로 설정**해야 합니다.
+
+---
+
+## GitHub 반영 명령어
+
+README 수정 후 GitHub에 반영하려면 아래 명령어를 실행합니다.
+
+```bash
+git add README.md
+```
+
+```bash
+git commit -m "docs: add run and deployment instructions"
+```
+
+```bash
+git push origin main
+```
+
+전체 파일을 한 번에 반영하려면 아래 명령어를 사용할 수 있습니다.
+
+```bash
+git add .
+```
+
+```bash
+git commit -m "docs: update README"
+```
+
+```bash
+git push origin main
+```
+
+```
+```
+
