@@ -195,8 +195,6 @@ cx_project_ai_chatbot-main/
 
 ## 실행 방법
 
-````md
-
 본 프로젝트의 프론트엔드 코드는 `ai_chatbot_ui_ux` 폴더 안에 있습니다.
 
 ### 1. 저장소 클론
